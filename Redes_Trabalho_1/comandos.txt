@@ -1,0 +1,13 @@
+Servidor
+Compilacao
+g++ -o servidor_udp server_udp.cpp -lssl -lcrypto
+Execucao
+./servidor_udp 12345
+
+
+Cliente
+Compilacao
+g++ -o cliente_udp client_udp.cpp -lssl -lcrypto
+Execucao
+./cliente_udp 192.168.100.123 12345 nome_do_arquivo.txt
+
